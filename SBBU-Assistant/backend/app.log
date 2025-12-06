@@ -1,0 +1,8 @@
+ERROR:fastapi:Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:root:Session ID: ca0f7ea5-70a3-4e21-91a9-cd76c9e3d617, User Query: hello, Model: llama-3.3-70b-versatile
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+ERROR:root:Error in chat: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
